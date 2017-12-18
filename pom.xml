@@ -25,5 +25,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id> maven-repo </id>
+			<name> maven-repo </name>
+			<url> http://35.193.151.16:8081/nexus/content/repositories/maven-repo/ </url>
+		</repository>
+	</distributionManagement>	
 
 </project>
